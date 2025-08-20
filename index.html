@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Demo</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Script -->
+    <div class="quote-container" id="quote-container">
+      <div class="quote-text" id="quote-text"></div>
+      <div class="quote-author" id="quote-author"></div>
+      <div class="button-container">
+        <button
+          id="create-post-linkedin-button"
+          onclick="openLinkedinPostComposer()"
+        >
+          <i class="fa-brands fa-linkedin"></i>Share
+        </button>
+        <button id="new-quote-button" onclick="setRandomQuote()">
+          New Quote
+        </button>
+      </div>
+    </div> 
+    <script src="./script.js"></script>
+    <!-- <iframe src="https://www.linkedin.com/sharing/share-offsite/" frameborder="0"></iframe> -->
+    <!-- <object data="https://www.linkedin.com/sharing/share-offsite/" width="600" height="400"></object>
+    
+    <embed src="https://www.linkedin.com/sharing/share-offsite/" width="600" height="400"> -->
+  </body>
+</html>
